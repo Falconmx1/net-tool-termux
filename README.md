@@ -34,3 +34,15 @@ ping [IP]	Prueba de conectividad
 trace [IP]	Traceroute
 whois [domain]	Información WHOIS
 dns [domain]	Consulta DNS
+
+📖 Comandos Internos
+Opción	Función
+1	Escaneo de puertos
+2	Ping continuo
+3	Traceroute
+4	WHOIS lookup
+5	DNS lookup
+6	Info de IP
+7	Ping rápido
+8	Escaneo de red
+0	Salir
