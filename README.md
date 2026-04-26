@@ -23,3 +23,11 @@ chmod +x install.sh
 
 🚀 Uso
 python netool.py
+
+👨‍💻 Comandos disponibles
+Comando	Descripción
+scan [IP]	Escanea puertos
+ping [IP]	Prueba de conectividad
+trace [IP]	Traceroute
+whois [domain]	Información WHOIS
+dns [domain]	Consulta DNS
