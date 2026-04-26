@@ -1,25 +1,28 @@
-# NetTool - Herramienta de Red para Termux
+# 🌐 NetTool - Herramienta de Red para Termux
 
-[![Version](https://img.shields.io/badge/version-1.0-blue)]()
-
-Herramienta multifuncional para análisis y diagnóstico de redes en Termux.
+[![Version](https://img.shields.io/badge/version-1.0-blue)](https://github.com/Falconmx1/net-tool-termux)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Termux](https://img.shields.io/badge/Termux-Compatible-red)](https://termux.com)
 
 ## 📱 Características
 
-- 🔍 Escaneo de puertos TCP/UDP
-- 📡 Ping y traceroute mejorado
-- 🌐 Consultas WHOIS y DNS
-- 📊 Análisis de latencia
-- 🎨 Interfaz colorida
-- ⚡ Rápido y ligero
+- ✅ Escaneo de puertos TCP multi-hilo
+- ✅ Ping continuo y rápido
+- ✅ Traceroute completo
+- ✅ Consultas WHOIS
+- ✅ DNS lookup (A, AAAA, MX, NS, TXT, CNAME)
+- ✅ Geolocalización de IPs
+- ✅ Escaneo de red local con Nmap
+- ✅ Interfaz colorida y fácil de usar
 
 ## 🛠️ Instalación
 
 ```bash
-git clone https://github.com/Falconmx1/net-tool-termux.git
+pkg update && pkg upgrade
+pkg install git python
+git clone https://github.com/TU-USUARIO/net-tool-termux
 cd net-tool-termux
-chmod +x install.sh
-./install.sh
+bash install.sh
 
 🚀 Uso
 python netool.py
